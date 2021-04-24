@@ -1,0 +1,14 @@
+<?php /** @var Speroteck\ProductOption\Block\Product\View\GeographicAvailability $block */ ?>
+<?php
+$geographicAvailability = $block->getGeographicAvailability()
+?>
+<?php if ($geographicAvailability) : ?>
+<div class="geographic-availability">
+    <span class="geographic-availability__text">
+        <?= $block->escapeHtml(__('Available only in : ')) ?>
+        <span class="geographic-availability__text-data">
+            <?= $geographicAvailability ?>
+        </span>
+    </span>
+</div>
+<?php endif; ?>
