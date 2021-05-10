@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <referenceContainer name="product.info.main">
-        <block class="Speroteck\ProductOption\Block\Product\View\GeographicAvailability"
+        <block class="Example\ProductOption\Block\Product\View\GeographicAvailability"
                name="product.info.geographic_availability" as="geographic_availability"
-               template="Speroteck_ProductOption::product/view/geographic_availability.phtml"
+               template="Example_ProductOption::product/view/geographic_availability.phtml"
                after="product.info.price"
                ifconfig="product_option/general/enable"/>
     </referenceContainer>

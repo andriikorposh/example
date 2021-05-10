@@ -1,5 +1,5 @@
 <?php
-namespace Speroteck\ProductOption\Setup;
+namespace Example\ProductOption\Setup;
 
 use Magento\Eav\Setup\EavSetup;
 use Magento\Eav\Setup\EavSetupFactory;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Speroteck\ProductOption\Block\Product\View;
+namespace Example\ProductOption\Block\Product\View;
 
 use Magento\Framework\View\Element\Template;
 use Magento\Framework\View\Element\Template\Context;
@@ -8,7 +8,7 @@ use Magento\Framework\Registry;
 
 /**
  * Class GeographicAvailability
- * @package Speroteck\ProductOption\Block\Product\View
+ * @package Example\ProductOption\Block\Product\View
  */
 class GeographicAvailability extends Template
 {

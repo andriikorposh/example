@@ -1,6 +1,6 @@
 <?php
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Speroteck_ProductOption',
+    'Example_ProductOption',
     __DIR__
 );
